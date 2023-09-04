@@ -32,7 +32,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
 
     // Check if the withdrawal amount is greater than the available balance
     if (newWithdrawAmount > previousBalanceTotal) {
-        alert('You do not have sufficient funds!');
+        alert('বাপের ব্যাংকে এত টাকা নাই!!!');
         return;
     }
 
