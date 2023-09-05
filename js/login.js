@@ -21,4 +21,5 @@ btnSubmit.addEventListener('click', function () {
     else {
         alert('কিহ!!! তুই পাসওয়ার্ড ভুলে গেছস!! যা তোকে ত্যায্য করে দিলাম')
     }
+
 })
