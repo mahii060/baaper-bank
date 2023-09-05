@@ -21,9 +21,4 @@ btnSubmit.addEventListener('click', function () {
     else {
         alert('কিহ!!! তুই পাসওয়ার্ড ভুলে গেছস!! যা তোকে ত্যায্য করে দিলাম')
     }
-
-    const userNameField = document.getElementById('user-name-field');
-    const name = userNameField.value;
-    const userName = document.getElementById('user-name');
-    userName.innerText = name;
 })
